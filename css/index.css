@@ -4,4 +4,47 @@
     Oct 22
     Github:ariefnugraha
 */
+@font-face {
+    font-family: 'made-coachella';
+    src: url('../assets/fonts/made-coachella.otf');
+}
 
+ul {list-style: none;}
+
+a {
+    text-decoration: none;
+    color: #202020;
+}
+
+#hero h1 {
+    font-family: "made-coachella", serif;
+    font-size: 40px;
+}
+
+#hero form {
+    background: #D7B865;
+}
+
+#hero form > * {
+    width: calc((100% / 7) - 20px);
+    margin-right: 20px;
+}
+
+#hero form .icon {
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#hero form button {
+    background: #202020;
+    color: #D7B865;
+}
+
+#hero form select {
+    -webkit-appearance: none;
+}
+
+#hero video {
+    object-fit: cover;
+}
